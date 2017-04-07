@@ -35,3 +35,13 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### Testing repository metadata
+
+{% if site.github %}
+  Unlikely to work?
+{% elsif site.github.project_title %}
+  Hopefully works! The project title is {{ site.github.project_title }}
+{% else %}
+  Uh oh!
+{% endif %}
