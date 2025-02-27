@@ -14,11 +14,11 @@ Just testing some layout issues!
     <td>&nbsp;<br /><pre lang="shell">mvnw.cmd clean verify</pre></td>
   </tr>
   <tr>
-    <td>Maven (command-line)</td>
+    <td><div class="highlight highlight-source-shell notranslate position-relative overflow-auto">Maven (command-line)</div></td>
     <td><pre lang="shell">mvn clean verify</pre></td>
   </tr>
   <tr>
-    <td>Maven (command-line & setting jvmserver)</td>
+    <td><div class="highlight highlight-source-shell notranslate position-relative overflow-auto">Maven (command-line & setting jvmserver)</div></td>
     <td><pre lang="shell">mvn clean verify -Dcics.jvmserver=MYJVM</pre></td>
   </tr>
 </table>
