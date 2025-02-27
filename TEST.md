@@ -7,11 +7,11 @@ Just testing some layout issues!
   </tr>
   <tr>
     <td>Maven Wrapper (Linux/Mac)</td>
-    <td><pre lang="shell">./mvnw clean verify</pre></td>
+    <td>&nbsp;<br /><pre lang="shell">./mvnw clean verify</pre></td>
   </tr>
   <tr>
     <td>Maven Wrapper (Windows)</td>
-    <td><pre lang="shell">mvnw.cmd clean verify</pre></td>
+    <td>&nbsp;<br /><pre lang="shell">mvnw.cmd clean verify</pre></td>
   </tr>
   <tr>
     <td>Maven (command-line)</td>
