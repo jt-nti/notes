@@ -35,3 +35,27 @@ Maybe a dl is better?
   <dt>Maven (command-line & setting jvmserver)</dt>
   <dd><pre lang="shell">mvn clean verify -Dcics.jvmserver=MYJVM</pre></dd>
 </dl>
+
+Plain markdown ftw!!!
+
+
+Maven Wrapper (Linux/Mac):
+```shell
+./mvnw clean verify
+```
+
+Maven Wrapper (Windows):
+```shell
+mvnw.cmd clean verify
+```
+
+Maven (command-line):
+```shell
+mvn clean verify
+```
+
+Maven (command-line & setting jvmserver):
+```shell
+mvn clean verify -Dcics.jvmserver=MYJVM
+```
+
